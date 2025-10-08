@@ -1,0 +1,50 @@
+.form-containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+}
+.form{
+    background-color: rgb(41, 40, 40);
+    padding: 30px;
+    color: rgb(240, 243, 245);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgb(99, 99, 99);
+    width: 300px;
+}
+.form input{
+    background: transparent;
+    width: 200px;
+    height: 25px;
+    border-bottom: 1px solid blue;
+    border-radius: 10px;
+    border: transparent;
+}
+.form input::placeholder{
+    color: aliceblue;
+    padding: 10px;
+}
+input:nth-child(3){
+    border-bottom: 1px solid brown;
+}
+input:nth-child(7){
+    border-top: 1px solid blue;
+}
+input:nth-child(11){
+    border: 1px solid yellow;
+}
+input:nth-child(15){
+    border-left: 1px solid rgb(163, 118, 125);
+}
+input:nth-child(18){
+    border: 1px solid;
+    margin-left: 40px;
+    transition: 0.3s ease;
+
+}
+input:nth-child(18):hover{
+    transfom: scale(1,2);
+    background: rgb(202, 159, 107);
+}
