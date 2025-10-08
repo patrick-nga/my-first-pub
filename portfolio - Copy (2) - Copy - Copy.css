@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.videohero{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+body{
+    background: black;
+    color: aliceblue;
+}
+.navide{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.link li{
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+}
+.image img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 20px;
+
+}
+.hello{
+    margin-top: 5px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panzu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pai{
+    margin-left: 70px;
+    color: orange;
+    margin-top: 25px;
+    padding: 20px;
+    margin-left: 160px;
+    font-size: 50px;
+    margin-right: 5%;
+}
+.pai h2{
+    font-size: 80px;
+    padding: 10px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pai .btn{
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.pai p{
+    color: black;
+}
+.pai .btn button{
+    background-color: black;
+    color: red;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 20px;
+}
+.Aboutme{
+    border-style: dotted;
+    padding: 20px;
+    margin-top: 2px;
+    font-size: 100px;
+}
+.Aboutme h2{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 100px;
+}
+.Aboutme p{
+    font-size: 50px;
+}
+.Skills{
+    margin-top: 10px;
+    font-size: 60px;
+}
+.Skills h2{
+    text-align: center;
+    font-size: 70px;
+    color: yellow
+}
+.Skills ul{
+    margin: 80px;
+    color: yellow;
+}
+.teamworke{
+    text-align: center;
+    background-color: rgb(102, 118, 113);
+    border: 4px double;
+    font-size: 70px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.footer{
+    background-color: coral;
+    list-style: none;
+}
+.link1 li{
+    display: inline;
+    margin: 20px;
+    list-style: none;
+    margin-bottom: 70%;
+
+}
+.link1 a{
+     text-decoration: none;
+     margin: 0 2px;
+}
+
+.link2 a{
+    text-decoration: none;
+    margin-bottom: 50px;
+    list-style: none;
+}
+.link2 li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.link3 li{
+    list-style: none;
+    margin-bottom: 20px;
+   
+}
+.link3 a{
+    text-decoration: none;
+    color: darkgreen;
+    margin: 0 20px
+}
+
